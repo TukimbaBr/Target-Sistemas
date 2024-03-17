@@ -1,0 +1,47 @@
+1) Soma = 144
+
+2) R: arquivo chamado Fibonacci.py
+
+3)
+a)9, 11, 13
+b)128, 256, 512
+c)49, 64, 81
+d)100, 144, 196
+e)13, 21, 34
+f)20, 21, 23
+
+4)Interruptor 1,2,3/ Salas A,B,C
+
+Passo 1 - Ligo os 3 interruptores
+Passo 2 - Desligo o interruptor 3
+Passo 3 - Vou a sala C
+Se a lâmpada C estiver OFF:
+	C = 3
+	Passo 4 - volto a sala dos interruptores
+	Passo 5 - Desligo o interruptor 2
+	Passo 6 - Vou a sala B
+	Se lâmpada estiver OFF:
+		B = 2
+		A = 1
+	Se lâmpada estiver ON:
+		B = 1
+		A = 2
+Se a lâmpada C estiver ON:
+	C != 3
+	Passo 4 - volto a sala dos interruptores
+	Passo 5 - Desligo Todos os interruptores
+	Passo 6 - Ligo interruptor 2
+	Passo 7 - Vou a sala B
+	Se lâmpada OFF:
+		B = 3
+		C = 2
+		A= 1
+	Se lâmpada ON:
+		B = 2
+		C = 1
+		A = 3
+
+5) R: arquivo chamado inverter_texto.py
+
+
+	
